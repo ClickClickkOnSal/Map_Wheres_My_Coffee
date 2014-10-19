@@ -12,9 +12,16 @@
     <input id="get-city" type="City">
     <input type="submit" value="Search">
   </form>
-  <% link_to searches_path(@search, :my_param => "san fransisco")%>
-  <%= @search %>
-  <div id="results"></div>
+  <div id="name-list">
+    <ul id="results">
+
+    </ul>
+  </div>
+  <div id="address-list">
+    <ul id="results">
+
+    </ul>
+  </div>
 
 <%= yield %>
 

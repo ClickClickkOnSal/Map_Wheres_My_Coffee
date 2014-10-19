@@ -1,10 +1,7 @@
 Rails.application.routes.draw do
 
   root 'searches#index'
-  resources :searches, only: [:index, :show] do
-    get 'search', :on => :collection
-  end
-
+  post '/search' => 'searches#search'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -6301,3 +6301,1482 @@ Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-18 21:01:40 -040
 Started GET "/searches/search.json" for 127.0.0.1 at 2014-10-18 21:01:50 -0400
 Processing by SearchesController#search as JSON
 Completed 200 OK in 11985ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:22:19 -0400
+
+SyntaxError (/Users/Sal/dev/wdi/map_wheres_my_coffee/app/controllers/searches_controller.rb:9: syntax error, unexpected tSTRING_DEND, expecting keyword_end):
+  app/controllers/searches_controller.rb:9: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+
+
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.8ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:22:39 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 72ms
+
+ActionView::Template::Error (undefined method `searches_path' for #<#<Class:0x007fcdfd3c00a0>:0x007fcdfd3b9fe8>):
+    12:     <input id="get-city" type="City">
+    13:     <input type="submit" value="Search">
+    14:   </form>
+    15:   <% link_to searches_path(@search, :my_param => "san fransisco")%>
+    16:   <%= @search %>
+    17:   <div id="results"></div>
+    18: 
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___3566368213245083846_70261346698020'
+
+
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:22:39 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined method `searches_path' for #<#<Class:0x007fcdfd3c00a0>:0x007fcdfc3eff68>):
+    12:     <input id="get-city" type="City">
+    13:     <input type="submit" value="Search">
+    14:   </form>
+    15:   <% link_to searches_path(@search, :my_param => "san fransisco")%>
+    16:   <%= @search %>
+    17:   <div id="results"></div>
+    18: 
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___3566368213245083846_70261346698020'
+
+
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:22:49 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:22:54 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooktrn"}
+Completed 200 OK in 703ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:23:00 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"San Fransisco"}
+Completed 200 OK in 838ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:26:18 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:26:19 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:26:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:19 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:26:55 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:26:58 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1431ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:13 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:27:15 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 951ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:27:37 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:27:42 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 984ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:28:09 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:28:12 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 964ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:28:20 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"San Fransisco"}
+Completed 200 OK in 911ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:29:35 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:29:38 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 964ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:30:36 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:30:43 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1000ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:31:00 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:31:02 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 928ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:32:50 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:34:23 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:34:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:34:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:34:23 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:34:26 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1355ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413732900121" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:35:00 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413732909447" for 127.0.0.1 at 2014-10-19 11:35:09 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413732909449" for 127.0.0.1 at 2014-10-19 11:35:09 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:36:05 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413732971846" for 127.0.0.1 at 2014-10-19 11:36:11 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:36:20 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1070ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733141008" for 127.0.0.1 at 2014-10-19 11:39:01 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733330243" for 127.0.0.1 at 2014-10-19 11:42:10 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:42:32 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:42:36 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1352ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733374175" for 127.0.0.1 at 2014-10-19 11:42:54 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733392357" for 127.0.0.1 at 2014-10-19 11:43:12 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733406362" for 127.0.0.1 at 2014-10-19 11:43:26 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733412379" for 127.0.0.1 at 2014-10-19 11:43:32 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733418414" for 127.0.0.1 at 2014-10-19 11:43:38 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733421611" for 127.0.0.1 at 2014-10-19 11:43:41 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733425817" for 127.0.0.1 at 2014-10-19 11:43:45 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733448463" for 127.0.0.1 at 2014-10-19 11:44:08 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733451981" for 127.0.0.1 at 2014-10-19 11:44:11 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733468667" for 127.0.0.1 at 2014-10-19 11:44:28 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733471117" for 127.0.0.1 at 2014-10-19 11:44:31 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:07 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733551860" for 127.0.0.1 at 2014-10-19 11:45:51 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:45:52 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:46:45 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:46:49 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brookyln"}
+Completed 200 OK in 1485ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:47:37 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:47:40 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 967ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:18 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:48:28 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1334ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:48:41 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:48:47 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1291ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:05 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:13 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:35 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:50:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:51:08 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:51:12 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1394ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733931681" for 127.0.0.1 at 2014-10-19 11:52:11 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733935008" for 127.0.0.1 at 2014-10-19 11:52:15 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413733943349" for 127.0.0.1 at 2014-10-19 11:52:23 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413734032359" for 127.0.0.1 at 2014-10-19 11:53:52 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:54:32 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:54:35 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 1630ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413734098148" for 127.0.0.1 at 2014-10-19 11:54:58 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:12 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:55:15 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 930ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:32 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:55:34 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:55:37 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"San Fransisco"}
+Completed 200 OK in 1349ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413734150266" for 127.0.0.1 at 2014-10-19 11:55:50 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413734155962" for 127.0.0.1 at 2014-10-19 11:55:55 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:57:38 -0400
+
+
+Started GET "/search.json" for 127.0.0.1 at 2014-10-19 11:57:43 -0400
+Processing by SearchesController#search as JSON
+Completed 200 OK in 1722ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search.json" for 127.0.0.1 at 2014-10-19 11:57:50 -0400
+Processing by SearchesController#search as JSON
+Completed 200 OK in 979ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search.json" for 127.0.0.1 at 2014-10-19 11:57:56 -0400
+Processing by SearchesController#search as JSON
+Completed 200 OK in 982ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 11:59:08 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:59:45 -0400
+
+ActionController::RoutingError (No route matches [POST] "/search"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (3.7ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 11:59:49 -0400
+
+ActionController::RoutingError (No route matches [POST] "/search"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.8ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 11:59:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 11:59:51 -0400
+
+
+Started GET "/search.json" for 127.0.0.1 at 2014-10-19 12:00:08 -0400
+
+ActionController::RoutingError (No route matches [GET] "/search.json"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 12:00:09 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 12:00:11 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 837ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search.json" for 127.0.0.1 at 2014-10-19 12:00:24 -0400
+Processing by SearchesController#search as JSON
+Completed 200 OK in 937ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search.json" for 127.0.0.1 at 2014-10-19 12:00:26 -0400
+Processing by SearchesController#search as JSON
+Completed 200 OK in 944ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 12:01:05 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 888ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 12:01:08 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 12:01:11 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 890ms (Views: 0.9ms | ActiveRecord: 0.0ms)

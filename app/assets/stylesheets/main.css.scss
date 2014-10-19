@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+#search-form, #results {
+  text-align: center;
+}
+
+#results {
+  list-style-type: none;
+}
+
+#name-list {
+  float: left;
+}
+
+#address-list  {
+  float: right;
+}
+
+#name-list, #address-list {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.header {
+  font-weight: bold;
+  font-size:1.5em;
+}
