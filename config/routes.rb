@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
   root 'searches#index'
-  resources :searches
+  resources :searches, only: [:index, :show] do
+    get 'search', :on => :collection
+  end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

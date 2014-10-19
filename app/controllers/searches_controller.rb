@@ -1,7 +1,15 @@
 class SearchesController < ApplicationController
 
-    def index
+    def search
+      location = "params[:location]"
       parameters = { term: "coffee", limit: 10 }
-      render json: Yelp.client.search("San Francisco", parameters)
+      respond_to do |format|
+        format.html
+        format.json { render json: Yelp.client.search(location, parameters) }
+      end
+    end
+
+    def show
+
     end
 end
