@@ -8,21 +8,24 @@
 </head>
 <body>
   <h1>Map! Where's My Coffee?</h1>
-  <form id="search-form">
-    <input id="get-city" type="City">
-    <input type="submit" value="Search">
-  </form>
+  <div id="form-block">
+    <form id="search-form">
+      <label for="get-city">Enter your City in the form below to retrieve 10 nearby coffee shops.</label>
+      <input id="get-city" type="City" placeholder="Enter City Name">
+      <input type="submit" value="Search">
+    </form>
+  </div>
+
   <div id="name-list">
     <ul id="results">
-
     </ul>
   </div>
+
   <div id="address-list">
     <ul id="results">
-
     </ul>
   </div>
-
+  <footer><%= image_tag "yelp_logo.png" %></footer>
 <%= yield %>
 
 </body>
