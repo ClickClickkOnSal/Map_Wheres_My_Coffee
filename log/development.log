@@ -12667,3 +12667,932 @@ Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:04:08 -0400
 
 
 Started GET "/assets/Coffee-Owl.jpg" for 127.0.0.1 at 2014-10-19 19:04:08 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:06:45 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760237620" for 127.0.0.1 at 2014-10-19 19:10:37 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:10:40 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760252601" for 127.0.0.1 at 2014-10-19 19:10:52 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760253146" for 127.0.0.1 at 2014-10-19 19:10:53 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:10:54 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760257430" for 127.0.0.1 at 2014-10-19 19:10:57 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:11:00 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760286430" for 127.0.0.1 at 2014-10-19 19:11:26 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:11:26 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (Invalid CSS after "...o-repeat, width": expected ";", was ":80%;"
+  (in /Users/Sal/dev/wdi/map_wheres_my_coffee/app/assets/stylesheets/main.css.scss:2)):
+    2: <html>
+    3: <head>
+    4:   <title>MapWheresMyCoffee</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/main.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2435688214021628791_70207863728920'
+
+
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Sal/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.3ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760291904" for 127.0.0.1 at 2014-10-19 19:11:31 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760306068" for 127.0.0.1 at 2014-10-19 19:11:46 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:11:52 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760334718" for 127.0.0.1 at 2014-10-19 19:12:14 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760344742" for 127.0.0.1 at 2014-10-19 19:12:24 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760344745" for 127.0.0.1 at 2014-10-19 19:12:24 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760365321" for 127.0.0.1 at 2014-10-19 19:12:45 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760365321" for 127.0.0.1 at 2014-10-19 19:12:45 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 19:13:13 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 2593ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760406820" for 127.0.0.1 at 2014-10-19 19:13:26 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760406819" for 127.0.0.1 at 2014-10-19 19:13:26 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760422156" for 127.0.0.1 at 2014-10-19 19:13:42 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760422156" for 127.0.0.1 at 2014-10-19 19:13:42 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760430067" for 127.0.0.1 at 2014-10-19 19:13:50 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760430067" for 127.0.0.1 at 2014-10-19 19:13:50 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760477466" for 127.0.0.1 at 2014-10-19 19:14:37 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760477468" for 127.0.0.1 at 2014-10-19 19:14:37 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1&livereload=1413760513773" for 127.0.0.1 at 2014-10-19 19:15:13 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1&livereload=1413760513774" for 127.0.0.1 at 2014-10-19 19:15:13 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1&livereload=1413760514246" for 127.0.0.1 at 2014-10-19 19:15:14 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1&livereload=1413760514246" for 127.0.0.1 at 2014-10-19 19:15:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:15:43 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 19:16:30 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Baltimore"}
+Completed 200 OK in 1627ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:17:36 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:17:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:17:36 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:18:37 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760746188" for 127.0.0.1 at 2014-10-19 19:19:06 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760746188" for 127.0.0.1 at 2014-10-19 19:19:06 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760751523" for 127.0.0.1 at 2014-10-19 19:19:11 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760751523" for 127.0.0.1 at 2014-10-19 19:19:11 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760755610" for 127.0.0.1 at 2014-10-19 19:19:15 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760755610" for 127.0.0.1 at 2014-10-19 19:19:15 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760758525" for 127.0.0.1 at 2014-10-19 19:19:18 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760758525" for 127.0.0.1 at 2014-10-19 19:19:18 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760774860" for 127.0.0.1 at 2014-10-19 19:19:34 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760774861" for 127.0.0.1 at 2014-10-19 19:19:34 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760784450" for 127.0.0.1 at 2014-10-19 19:19:44 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760784450" for 127.0.0.1 at 2014-10-19 19:19:44 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760787802" for 127.0.0.1 at 2014-10-19 19:19:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413760787802" for 127.0.0.1 at 2014-10-19 19:19:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761698061" for 127.0.0.1 at 2014-10-19 19:34:58 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761698061" for 127.0.0.1 at 2014-10-19 19:34:58 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761709546" for 127.0.0.1 at 2014-10-19 19:35:09 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761709546" for 127.0.0.1 at 2014-10-19 19:35:09 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761714114" for 127.0.0.1 at 2014-10-19 19:35:14 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761714114" for 127.0.0.1 at 2014-10-19 19:35:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:35:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:35:20 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761747314" for 127.0.0.1 at 2014-10-19 19:35:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761747317" for 127.0.0.1 at 2014-10-19 19:35:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761758600" for 127.0.0.1 at 2014-10-19 19:35:58 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761758600" for 127.0.0.1 at 2014-10-19 19:35:58 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761764302" for 127.0.0.1 at 2014-10-19 19:36:04 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761764302" for 127.0.0.1 at 2014-10-19 19:36:04 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761765163" for 127.0.0.1 at 2014-10-19 19:36:05 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761765164" for 127.0.0.1 at 2014-10-19 19:36:05 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761773318" for 127.0.0.1 at 2014-10-19 19:36:13 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761773318" for 127.0.0.1 at 2014-10-19 19:36:13 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761788969" for 127.0.0.1 at 2014-10-19 19:36:28 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761788969" for 127.0.0.1 at 2014-10-19 19:36:28 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761794282" for 127.0.0.1 at 2014-10-19 19:36:34 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761794282" for 127.0.0.1 at 2014-10-19 19:36:34 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761807046" for 127.0.0.1 at 2014-10-19 19:36:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761807046" for 127.0.0.1 at 2014-10-19 19:36:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761827126" for 127.0.0.1 at 2014-10-19 19:37:07 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761827126" for 127.0.0.1 at 2014-10-19 19:37:07 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761842853" for 127.0.0.1 at 2014-10-19 19:37:22 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761842853" for 127.0.0.1 at 2014-10-19 19:37:22 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761992843" for 127.0.0.1 at 2014-10-19 19:39:52 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413761992843" for 127.0.0.1 at 2014-10-19 19:39:52 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762361807" for 127.0.0.1 at 2014-10-19 19:46:01 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762361807" for 127.0.0.1 at 2014-10-19 19:46:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:46:05 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762389237" for 127.0.0.1 at 2014-10-19 19:46:29 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762389239" for 127.0.0.1 at 2014-10-19 19:46:29 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762395746" for 127.0.0.1 at 2014-10-19 19:46:35 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762395747" for 127.0.0.1 at 2014-10-19 19:46:35 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762413978" for 127.0.0.1 at 2014-10-19 19:46:53 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762413978" for 127.0.0.1 at 2014-10-19 19:46:53 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762427142" for 127.0.0.1 at 2014-10-19 19:47:07 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762427143" for 127.0.0.1 at 2014-10-19 19:47:07 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762467044" for 127.0.0.1 at 2014-10-19 19:47:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762467044" for 127.0.0.1 at 2014-10-19 19:47:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762467674" for 127.0.0.1 at 2014-10-19 19:47:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762467674" for 127.0.0.1 at 2014-10-19 19:47:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762488879" for 127.0.0.1 at 2014-10-19 19:48:08 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762488879" for 127.0.0.1 at 2014-10-19 19:48:08 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762504747" for 127.0.0.1 at 2014-10-19 19:48:24 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762504747" for 127.0.0.1 at 2014-10-19 19:48:24 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 19:48:46 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Bronx"}
+Completed 200 OK in 4418ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 19:48:51 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Bronx"}
+Completed 200 OK in 3914ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:49:25 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762504747" for 127.0.0.1 at 2014-10-19 19:49:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:49:25 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762714420" for 127.0.0.1 at 2014-10-19 19:51:54 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762714420" for 127.0.0.1 at 2014-10-19 19:51:54 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762725662" for 127.0.0.1 at 2014-10-19 19:52:05 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762725662" for 127.0.0.1 at 2014-10-19 19:52:05 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762730314" for 127.0.0.1 at 2014-10-19 19:52:10 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762730314" for 127.0.0.1 at 2014-10-19 19:52:10 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762800167" for 127.0.0.1 at 2014-10-19 19:53:20 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762800167" for 127.0.0.1 at 2014-10-19 19:53:20 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762805719" for 127.0.0.1 at 2014-10-19 19:53:25 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762805719" for 127.0.0.1 at 2014-10-19 19:53:25 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762847226" for 127.0.0.1 at 2014-10-19 19:54:07 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762847226" for 127.0.0.1 at 2014-10-19 19:54:07 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762852166" for 127.0.0.1 at 2014-10-19 19:54:12 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762852166" for 127.0.0.1 at 2014-10-19 19:54:12 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762870623" for 127.0.0.1 at 2014-10-19 19:54:30 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762870623" for 127.0.0.1 at 2014-10-19 19:54:30 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 19:54:37 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762894630" for 127.0.0.1 at 2014-10-19 19:54:54 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762894632" for 127.0.0.1 at 2014-10-19 19:54:54 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762916819" for 127.0.0.1 at 2014-10-19 19:55:16 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762916823" for 127.0.0.1 at 2014-10-19 19:55:16 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762936194" for 127.0.0.1 at 2014-10-19 19:55:36 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762936194" for 127.0.0.1 at 2014-10-19 19:55:36 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762944170" for 127.0.0.1 at 2014-10-19 19:55:44 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762944170" for 127.0.0.1 at 2014-10-19 19:55:44 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762963274" for 127.0.0.1 at 2014-10-19 19:56:03 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762963274" for 127.0.0.1 at 2014-10-19 19:56:03 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762980954" for 127.0.0.1 at 2014-10-19 19:56:20 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413762980954" for 127.0.0.1 at 2014-10-19 19:56:20 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763008987" for 127.0.0.1 at 2014-10-19 19:56:48 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763008987" for 127.0.0.1 at 2014-10-19 19:56:49 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763052616" for 127.0.0.1 at 2014-10-19 19:57:32 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763052616" for 127.0.0.1 at 2014-10-19 19:57:32 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763079123" for 127.0.0.1 at 2014-10-19 19:57:59 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763079123" for 127.0.0.1 at 2014-10-19 19:57:59 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 20:02:23 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 6516ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 20:02:30 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Brooklyn"}
+Completed 200 OK in 5729ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763364723" for 127.0.0.1 at 2014-10-19 20:02:44 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763364723" for 127.0.0.1 at 2014-10-19 20:02:44 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1&livereload=1413763499568" for 127.0.0.1 at 2014-10-19 20:04:59 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1&livereload=1413763499569" for 127.0.0.1 at 2014-10-19 20:04:59 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763540508" for 127.0.0.1 at 2014-10-19 20:05:40 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763540508" for 127.0.0.1 at 2014-10-19 20:05:40 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763547136" for 127.0.0.1 at 2014-10-19 20:05:47 -0400
+
+
+Started GET "/assets/main.css?body=1&livereload=1413763547136" for 127.0.0.1 at 2014-10-19 20:05:47 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-19 20:05:50 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-19 20:06:03 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Washington"}
+Completed 200 OK in 6243ms (Views: 0.6ms | ActiveRecord: 0.0ms)

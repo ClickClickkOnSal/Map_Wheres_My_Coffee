@@ -1,18 +1,18 @@
 html {
-  background: url('Coffee-Owl.jpg') no-repeat;
+  background: url('coffee-background.jpg') no-repeat;
   background-size: cover;
 }
 h1 {
   text-align: center;
   font-size: 3em;
-  font-family: 'Changa One', cursive;
+  font-family: 'Hammersmith One', cursive;
+  color: white;
 }
 
 #form-block {
   text-align: center;
   label {
     color: white;
-    background: rgba(0,0,0,0.7);
     font-family: 'Changa One', cursive;
   }
   #search-form{
@@ -23,6 +23,9 @@ h1 {
       width: 20em;
       height: 2em;
     }
+  }
+  #submit-city {
+    width: 20em;
   }
 }
 
@@ -44,9 +47,9 @@ h1 {
 #name-list, #address-list {
   display: none;
   margin: 30px auto;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.2);
   color:white;
   a {
     text-decoration: none;
