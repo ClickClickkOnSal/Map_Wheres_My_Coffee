@@ -15,7 +15,19 @@ $(document).ready(function(){
     // Sends user input to the controller where search function is handled
     // Data is passed as an argument to be able to retrieve the response from the yelp search api
     $.post('/search', {search: searchWord}, function(data, status) {
-      if (data.businesses.length === 10){
+
+      // Console.log Driven Developmet!!!
+      console.log(data.businesses.length)
+      console.log(status)
+
+      // if search brings 0 results display this to the page
+      if (data.businesses.length === 0) {
+        $("#name-list #results").html("<li>Did not find any results for your Search</li>");
+        $("#address-list #results").html("<li>Did not find any results for your Search</li>")
+      }
+
+      // if search is a success this will run
+      else if (status == "success"){
         // Data is retreived in JSON format and parsing through the data here
         for(var i = 0; i < data.businesses.length; i++) {
 
@@ -46,12 +58,6 @@ $(document).ready(function(){
 
       // if status returns a 500 error display this to the page
       else if (status === 500) {
-        $("#name-list #results").html("<li>Did not find any results for your Search</li>");
-        $("#address-list #results").html("<li>Did not find any results for your Search</li>")
-      }
-
-      // if search brings 0 results display to the page
-      else if (data.businesses.length === 0) {
         $("#name-list #results").html("<li>Did not find any results for your Search</li>");
         $("#address-list #results").html("<li>Did not find any results for your Search</li>")
       }

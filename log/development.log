@@ -13596,3 +13596,435 @@ Started POST "/search" for 127.0.0.1 at 2014-10-19 20:06:03 -0400
 Processing by SearchesController#search as */*
   Parameters: {"search"=>"Washington"}
 Completed 200 OK in 6243ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:33:48 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 86ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:33:49 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:33:52 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"21224"}
+Completed 200 OK in 3003ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 78ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started GET "/assets/coffee-background.jpg" for 127.0.0.1 at 2014-10-20 00:39:47 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:39:53 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"6131 bessemer ave"}
+Completed 200 OK in 1235ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:40:04 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair"}
+Completed 200 OK in 1744ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:40:07 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:40:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:40:07 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:40:18 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 5792ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:40:30 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"e32"}
+Completed 200 OK in 1552ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:41:11 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:41:16 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 1089ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:42:30 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:42:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:42:30 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:42:34 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"21224"}
+Completed 200 OK in 1431ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:42:41 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"6131 bessemer ave"}
+Completed 200 OK in 413ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:42:49 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 2872ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:43:01 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:43:02 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:43:07 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 1655ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:43:29 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 Music fair rd"}
+Completed 200 OK in 1807ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:43:45 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:43:49 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 620ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:44:06 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:44:11 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 438ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:44:24 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:44:30 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 1804ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:44:42 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:44:45 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 music fair rd"}
+Completed 200 OK in 2206ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:44:50 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"21224"}
+Completed 200 OK in 5494ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:45:09 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"Baltimore/MD"}
+Completed 200 OK in 6240ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 00:48:02 -0400
+Processing by SearchesController#index as HTML
+  Rendered searches/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/google_fonts.css?body=1" for 127.0.0.1 at 2014-10-20 00:48:02 -0400
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-10-20 00:48:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 00:48:02 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 00:48:02 -0400
+
+
+Started GET "/assets/search.js?body=1" for 127.0.0.1 at 2014-10-20 00:48:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 00:48:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 00:48:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 00:48:03 -0400
+
+
+Started GET "/assets/yelp_logo.png" for 127.0.0.1 at 2014-10-20 00:48:03 -0400
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:48:10 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"6131 Bessemer Ave"}
+Completed 200 OK in 991ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2014-10-20 00:48:18 -0400
+Processing by SearchesController#search as */*
+  Parameters: {"search"=>"15 Music Fair rd"}
+Completed 200 OK in 489ms (Views: 0.3ms | ActiveRecord: 0.0ms)
