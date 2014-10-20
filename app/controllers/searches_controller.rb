@@ -5,7 +5,7 @@ class SearchesController < ApplicationController
     def search
       location_object = {search: params[:search] }
       location = location_object[:search]
-      parameters = { term: "coffee", limit: 10 }
+      parameters = { category_filter: "coffee", limit: 10, sort: 1 }
       render json: Yelp.client.search(location, parameters)
     end
 

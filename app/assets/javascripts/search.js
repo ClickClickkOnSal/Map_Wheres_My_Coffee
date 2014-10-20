@@ -2,11 +2,12 @@ $(document).ready(function(){
   $("#search-form").on("submit", function(event){
     event.preventDefault();
 
-    var searchWord = $("#get-city").val();
-    $("#get-city").val('');
+    var searchWord = $("#get-location").val();
+    $("#get-location").val('');
 
     $.post('/search', {search: searchWord}, function(data) {
-      for(var i = 0; i < 10; i++) {
+      console.log(data.businesses.length);
+      for(var i = 0; i < data.businesses.length; i++) {
         var name = data.businesses[i].name;
         var location = data.businesses[i].location.display_address;
         var url = data.businesses[i].url
