@@ -1,9 +1,9 @@
 # Map! Where's My Coffee?
 
 ## OverView
-User inputs their City in the the search form and based on the city, the app
+User inputs their City/state or 5 digit zipcode in the the search form and based on the location input, the app
 returns 10 nearby Coffee Shops Name and Address. Also clicking on the name of the Coffee shop
-on the site will redirect User to the yelp website displaying more information about the place as well as reviews.
+on the site will redirect User to the coffee shop on the yelp website for more information.
 
 ## Local Set Up
 * <tt>$ git clone git@github.com:ClickClickkOnSal/Map_Wheres_My_Coffee.git</tt>
